@@ -20,7 +20,7 @@ for (let k = 1; k <= 70; k++) {
                 </div>`;
 }
 
-for (let k = 1; k <= 210; k++) {
+for (let k = 1; k <= 210 * 3; k++) {
     mathGrid.innerHTML += `
                   <div class="math-problem">
                     <div>${getNumber(1)}</div>
